@@ -16,7 +16,7 @@ function loadContents() {
 
     let marker = new Marker (i.ratio, i.multiplicator, i.pattname, i.video);
     marker.createMarker();
-    marker.playVideo();
+    markers.push(marker);
   }
 
 }

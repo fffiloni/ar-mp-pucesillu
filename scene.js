@@ -2,6 +2,7 @@ var scene, camera, renderer, clock, deltaTime, totalTime;
 var arToolkitSource, arToolkitContext;
 var markerRoot1;
 var mesh1;
+let markers = [];
 initialize();
 loadContents(); // contents.js
 animate();
@@ -84,3 +85,11 @@ function animate()
   update();
   render();
 }
+
+function allowPlay(){
+  for (let v of markers){
+    v.playVideo();
+  }
+}
+
+allowPlay();
