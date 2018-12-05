@@ -27,7 +27,7 @@ class Marker {
 
     let ratio = this.ratio;
     let multiplicator = this.multiplicator;
-    let offset = (ratio*multiplicator)/2+0.5+0.1;
+    let offset = (ratio*multiplicator)/2+0.5+0.125;
 
   	let geometry1 = new THREE.PlaneBufferGeometry(1*multiplicator,ratio*multiplicator);
   	let video = document.getElementById( this.video );
