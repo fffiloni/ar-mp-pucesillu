@@ -86,18 +86,18 @@ function animate()
   render();
 }
 
-function userTap(){
-  let tap = document.body;
-  tap.onclick = allowPlay();
-
-}
-
-function allowPlay(){
-  let video1 = document.getElementById('fleur1');
-  // let video2 = document.getElementById('fleur2');
-  video1.play();
-  // video2.play();
-  // console.log("clicked");
-}
-
-allowPlay();
+// function userTap(){
+//   let tap = document.body;
+//   tap.onclick = allowPlay();
+//
+// }
+//
+// function allowPlay(){
+//   let video1 = document.getElementById('fleur1');
+//   // let video2 = document.getElementById('fleur2');
+//   video1.play();
+//   // video2.play();
+//   // console.log("clicked");
+// }
+//
+// allowPlay();
