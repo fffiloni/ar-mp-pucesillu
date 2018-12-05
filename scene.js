@@ -87,8 +87,8 @@ function animate()
 }
 
 function allowPlay(){
-  let video1 = document.getElementById(fleur1);
-  let video2 = document.getElementById(fleur2);
+  let video1 = document.getElementById('fleur1');
+  let video2 = document.getElementById('fleur2');
   video1.play();
   video2.play();
 }
