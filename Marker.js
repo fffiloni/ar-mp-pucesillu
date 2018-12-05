@@ -45,9 +45,9 @@ class Marker {
 
   }
 
-  playVideo(){
-  	let video = document.getElementById(this.video);
-  	video.play();
-  }
+  // playVideo(){
+  // 	let video = document.getElementById(this.video);
+  // 	video.play();
+  // }
 
 }

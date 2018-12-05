@@ -87,9 +87,10 @@ function animate()
 }
 
 function allowPlay(){
-  for (let v of markers){
-    v.playVideo();
-  }
+  let video1 = document.getElementById(fleur1);
+  let video2 = document.getElementById(fleur2);
+  video1.play();
+  video2.play();
 }
 
 allowPlay();
