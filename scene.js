@@ -8,8 +8,6 @@ animate();
 function initialize()
 {
   scene = new THREE.Scene();
-  let ambientLight = new THREE.AmbientLight( 0xcccccc, 0.5 );
-  scene.add( ambientLight );
   camera = new THREE.Camera();
   scene.add(camera);
   renderer = new THREE.WebGLRenderer({

@@ -12,7 +12,7 @@ class Marker {
     markerRoot1 = new THREE.Group();
   	scene.add(markerRoot1);
   	let markerControls1 = new THREEx.ArMarkerControls(arToolkitContext, markerRoot1, {
-  		type: 'pattern', patternUrl: "./markers/"+this.pattname+".patt",
+  		type: 'pattern', patternUrl: "./markers/markers/"+this.pattname+".patt",
   	})
 
 

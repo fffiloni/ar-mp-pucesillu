@@ -1,6 +1,6 @@
 const illustrations = [
-  {ratio: 1.36, multiplicator: 5, pattname: "pattern-marker1", video: "fleur1"},
-  {ratio: 1.2, multiplicator: 5, pattname: "pattern-marker2", video: "fleur2"}
+  {ratio: 1.525, multiplicator: 5.85, pattname: "pattern-marker1", video: "fleur1"},
+  {ratio: 1.525, multiplicator: 5.85, pattname: "pattern-marker2", video: "fleur2"}
 ];
 
 function loadContents() {
