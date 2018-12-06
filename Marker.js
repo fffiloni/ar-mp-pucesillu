@@ -17,13 +17,13 @@ class Marker {
 
 
 
-  	let geometry2 = new THREE.PlaneBufferGeometry(1,1, 4,4);
-  	let loader = new THREE.TextureLoader();
-  	// let texture = loader.load( 'images/earth.jpg', render );
-  	let material2 = new THREE.MeshBasicMaterial( { color: 0x0000ff, opacity: 0.5 } );
-  	let mesh0 = new THREE.Mesh( geometry2, material2 );
-  	mesh0.rotation.x = -Math.PI/2;
-  	markerRoot1.add( mesh0 );
+  	// let geometry2 = new THREE.PlaneBufferGeometry(1,1, 4,4);
+  	// let loader = new THREE.TextureLoader();
+  	// // let texture = loader.load( 'images/earth.jpg', render );
+  	// let material2 = new THREE.MeshBasicMaterial( { color: 0x0000ff, opacity: 0.5 } );
+  	// let mesh0 = new THREE.Mesh( geometry2, material2 );
+  	// mesh0.rotation.x = -Math.PI/2;
+  	// markerRoot1.add( mesh0 );
 
     let ratio = this.ratio;
     let multiplicator = this.multiplicator;
