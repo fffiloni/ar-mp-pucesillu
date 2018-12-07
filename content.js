@@ -9,7 +9,7 @@ function loadContents() {
 
     var div = document.createElement('div');
      div.innerHTML ='<video id="'+i.video+'" autoplay loop muted playsinline crossorigin="anonymous" webkit-playsinline style="display:none">\
-     <source src="./videos/MP4/'+i.video+'.mp4">\
+     <source src="https://cdn.jsdelivr.net/gh/fffiloni/ar-mp-pucesillu/videos/MP4/'+i.video+'.mp4">\
      </video>';
 
      document.getElementById('container').appendChild(div);
